@@ -12,7 +12,7 @@ Xem hướng dẫn cài đặt Ubuntu 20.04 LTS
 II. Cài đặt Nginx
 Cài đặt Nginx:
 
-`sh
+`
 apt update
 apt -y install nginx
 `
@@ -25,8 +25,8 @@ Cho phép lưu lượng truy cập trên cổng 80.
 ufw allow 'Nginx HTTP'
 Kiểm tra phiên bản nginx:
 
-nginx -v 
-nginx version: nginx/1.17.10 (Ubuntu)
+`nginx -v` 
+`nginx version: nginx/1.17.10 (Ubuntu)`
 Truy cập IP máy chủ trên trình duyệt ta sẽ thấy như sau:
 III. Cài đặt hệ quản trị cơ sở dữ liệu
 Trên thực tế với LEMP, bạn có thể sử dụng mysql hoặc mariadb đều được, bài này mình sẽ hướng dẫn với mariadb.
