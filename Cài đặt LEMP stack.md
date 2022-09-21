@@ -12,10 +12,10 @@ Xem hướng dẫn cài đặt Ubuntu 20.04 LTS
 II. Cài đặt Nginx
 Cài đặt Nginx:
 
-'''sh
+`sh
 apt update
 apt -y install nginx
-'''
+`
 Trên Ubuntu 20.04, Nginx được cấu hình bắt đầu chạy khi cài đặt.
 
 Nếu tường lửa ufw đang chạy, thì bạn cần phải cho phép kết nối với Nginx. Nginx tự đăng ký với ufw khi cài đặt. Do đó việc thực hiện trở nên đơn giản hơn.
